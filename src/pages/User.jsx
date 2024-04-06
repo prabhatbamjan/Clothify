@@ -13,15 +13,15 @@ export default function User(){
                 <div className='home-container'>
                     <Nav showSideBar={showSideBar} setShowSideBar={setShowSideBar} />
                     <div className='widjets'>
-                       <h1>user Prodct</h1>
+                       <h1>
+
+                        user
+                       </h1>
                     </div>
 
                 </div>
 
             </div>
-
-
-
         </>
     )
 }

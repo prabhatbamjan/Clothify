@@ -19,9 +19,6 @@ export default function Setting(){
                 </div>
 
             </div>
-
-
-
         </>
     )
 }

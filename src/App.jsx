@@ -10,6 +10,7 @@ import User
  import Delivery
   from "./pages/Delivery"
   import Notification from "./pages/Notification"
+  import Products from "./pages/Products"
 
   import Payments from "./pages/Payments"
  
@@ -33,12 +34,13 @@ function App() {
   
         <Route excat path = "/" element = {<Home/>}></Route>
         <Route excat path = "/user" element = {<User/>}></Route>
-        <Route excat path = "/productPage" element = {<ProductPage/>}></Route>
-        <Route excat path = "/productPage" element = {<ProductPage/>}></Route>
-        <Route excat path = "/productPage" element = {<ProductPage/>}></Route>
-        <Route excat path = "/productPage" element = {<ProductPage/>}></Route>
-        <Route excat path = "/productPage" element = {<ProductPage/>}></Route>
-        <Route excat path = "/productPage" element = {<ProductPage/>}></Route>
+        <Route excat path = "/Products" element = {<Products/>}></Route>
+        <Route excat path = "/Orders" element = {<Orders/>}></Route>
+        <Route excat path = "/Delivery" element = {<Delivery/>}></Route>
+        <Route excat path = "/Notification" element = {<Notification/>}></Route>
+        <Route excat path = "/Payments" element = {<Payments/>}></Route>
+        <Route excat path = "/Setting" element = {<Setting/>}></Route>
+        <Route excat path = "/Logout" element = {<Logout/>}></Route>
      
       
 

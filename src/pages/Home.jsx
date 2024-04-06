@@ -12,7 +12,7 @@ export default function Home() {
     return (
         <>
             <div className='flex'>
-                {showSideBar &&  <Siderbar/>}
+                {  <Siderbar/>}
          
                 
                 <div className='home-container'>

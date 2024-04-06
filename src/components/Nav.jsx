@@ -14,9 +14,6 @@ export default function Nav({ showSideBar, setShowSideBar }) {
 <img src="logo.png"className="logo"></img>
 
 </div>
-                   
-                    
-
                     <div className="search">
                         <input type="search" placeholder='Search... ' className='search_input'></input>
                         
@@ -25,9 +22,6 @@ export default function Nav({ showSideBar, setShowSideBar }) {
                  
                 </div>
             </nav>
-
-
-
 
         </>
     )

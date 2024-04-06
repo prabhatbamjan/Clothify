@@ -13,7 +13,7 @@ export default function Orders(){
                 <div className='home-container'>
                     <Nav showSideBar={showSideBar} setShowSideBar={setShowSideBar} />
                     <div className='widjets'>
-                       <h1>Clothify Prodct</h1>
+                       <h1>order Prodct</h1>
                     </div>
 
                 </div>
