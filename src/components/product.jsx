@@ -56,12 +56,12 @@ function Product() {
     );
 
     function handleUpdate(productId) {
+
         console.log('Update product with ID:', productId);
     }
 
     function handleDelete(productId) {
         console.log('Delete product with ID:', productId);
     }
-}
-
+    }
 export default Product;
