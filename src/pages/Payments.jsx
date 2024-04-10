@@ -34,8 +34,16 @@ import Siderbar from "../components/Siderbar"
 function Payments() {
     const [searchQuery, setSearchQuery] = useState('');
     const [payments, setPayments] = useState([
-        { id: 1, customerName: 'John Doe', amount: 100.00, status: 'Pending' },
-        { id: 2, customerName: 'Jane Smith', amount: 150.00, status: 'Completed' }
+        { id: 1, customerName: 'J', amount: 100.00, status: 'Pending' },
+        { id: 2, customerName: 'XXX', amount: 150.00, status: 'Completed' },
+        { id: 1, customerName: 'XXX', amount: 100.00, status: 'Pending' },
+        { id: 2, customerName: 'J', amount: 150.00, status: 'Completed' },
+        { id: 1, customerName: 'John ', amount: 100.00, status: 'Pending' },
+        { id: 2, customerName: ' Smith', amount: 150.00, status: 'Completed' },
+        { id: 1, customerName: 'JDoe', amount: 100.00, status: 'Pending' },
+        { id: 2, customerName: 'Ja', amount: 150.00, status: 'Completed' },
+        { id: 1, customerName: 'J', amount: 100.00, status: 'Pending' },
+        { id: 2, customerName: 'XXX', amount: 150.00, status: 'Completed' }
     ]);
 
     // Function to handle updating the payment status
@@ -44,8 +52,10 @@ function Payments() {
     }
 
     return (
+
+        
         <div className="payments-container">
-            <h1>Payment Product</h1>
+            <h1>PAYMENT PRODUCT</h1>
             <div className="search-button-container">
                 <input
                     type="text"

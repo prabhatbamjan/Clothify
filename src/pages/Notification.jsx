@@ -40,6 +40,23 @@ export default function Notification(){
                                     <p>Tshirt was purchased</p>
                                 </div>
                             </div>
+                            <div className="notifcation_card">
+                               <IoIosNotifications className="notifcation_icon"/>
+                                <div className="card_description">
+                                    <h1>Title</h1>
+                                    <p>Tshirt was purchased</p>
+                                </div>
+                            </div>
+
+                            <div className="notifcation_card">
+                               <IoIosNotifications className="notifcation_icon"/>
+                                <div className="card_description">
+                                    <h1>Title</h1>
+                                    <p>Tshirt was purchased</p>
+                                </div>
+                            </div>
+
+
                         </div>
                        </div>
                     </div>

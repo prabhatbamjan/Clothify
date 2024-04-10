@@ -44,10 +44,14 @@ import Siderbar from "../components/Siderbar"
 // import './pages.css';
 
 function Delivery() {
+    const [showSideBar, setShowSideBar] = useState(false)   /*chnaged */
     const [searchQuery, setSearchQuery] = useState('');
     const [orders, setOrders] = useState([
         { id: 1, customerName: 'John Doe', orderDate: '2024-04-10', status: 'Pending' },
-        { id: 2, customerName: 'Jane Smith', orderDate: '2024-04-11', status: 'Delivered' }
+        { id: 2, customerName: 'Jane Smith', orderDate: '2024-04-11', status: 'Delivered' },
+        { id: 1, customerName: 'XXXXX', orderDate: '2024-04-10', status: 'Pending' },
+        { id: 1, customerName: 'XXXXX', orderDate: '2024-04-10', status: 'Pending' },
+        { id: 1, customerName: 'XXXXX', orderDate: '2024-04-10', status: 'Pending' }
     ]);
 
     // Function to handle updating the delivery status of an order
@@ -56,8 +60,16 @@ function Delivery() {
     }
 
     return (
+        <div className='flex'>
+            {showSideBar &&  <Siderbar/>}
+
+
         <div className="delivery-container">
-            <h2>Delivery Management</h2>
+        <Nav showSideBar={showSideBar} setShowSideBar={setShowSideBar} />
+                    <div className='widjets'>
+            
+            <h1>DELIVERY MANAGEMENT</h1>
+             
             <div className="search-button-container">
                 <input
                     type="text"
@@ -91,6 +103,8 @@ function Delivery() {
                     ))}
                 </tbody>
             </table>
+            </div>
+        </div>
         </div>
     );
 }
