@@ -594,9 +594,11 @@ h1 {
   margin: 5% auto 0; /* 20% margin from the top, auto margin for horizontal centering */
   padding: 20px;
   background-color: #f9f9f9;
-  border: 1px solid #ccc;
+  border: 1px solid #0c0b0b;
   border-radius: 4px;
   font-size: 120%;
+  position: relative;
+  left: 10rem;
 }
 
 /* .settings-container {
